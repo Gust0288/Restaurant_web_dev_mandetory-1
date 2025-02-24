@@ -24,7 +24,7 @@ main{
 }
 
 form{
-    max-width: 525px;
+    max-width: 100%;
     
     fieldset{
         border-radius: 0.5rem;
@@ -65,6 +65,9 @@ form{
     max-width: 768px;
     margin: 0.75rem auto;
     padding: 1rem;
+    form{
+    max-width: 100%;
+    }
 }
 
 }
@@ -75,6 +78,7 @@ form{
 }
 form{
     margin-top: -8.5rem;
+    max-width: 525px !important;
 }
     #info{
         display: flex;

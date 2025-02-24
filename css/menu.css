@@ -1,0 +1,86 @@
+main {
+  margin: 0.75rem 1rem;
+  display: flex;
+ 
+}
+section{
+    display: flex;
+    flex-flow: column nowrap;
+    gap: 0.5rem;
+}
+
+.food-card {
+  background-color: rgba(198, 198, 100, 0.5);
+  padding: 1rem;
+  border-radius: 1rem;
+  img {
+    display: block;
+    max-width: var(--imgThumbnailDimensionWidth);
+    height: var(--imgThumbnailDimensionHeight);
+    margin: 0 auto;
+    border-radius: 0.75rem;
+  }
+  h2 {
+    font-family: var(--fontTitle);
+    text-align: center;
+    background-color: var(--colorbgNav2);
+    border-radius: 0.5rem;
+    color: white;
+    margin: 0.5rem 0;
+  }
+  p {
+    font-family: var(--fontMain);
+    margin: 0.5rem 0;
+    line-height: 1.2;
+  }
+  p:last-child {
+    background-color: rgb(145, 56, 56);
+    width: 18%;
+    padding: 0.25rem 0.5rem;
+    border: solid black 6px;
+    border-radius: 0.5rem;
+    color: white;
+    font-family: var(--fontMain);
+    font-weight: 700;
+  }
+  p#high-price{
+    width: 21%;
+  }
+}
+@media (min-width: 768px){
+section{
+    display: flex; 
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+    .food-card{
+        width: var(--cardWidth);
+        display: flex;
+        flex-direction: row-reverse;
+        gap: 1rem;
+        h2{
+            text-align: start;
+            padding: 0 1rem;
+            max-width: 20rem;
+        }
+    }
+
+
+}
+
+@media (min-width: 1024px){
+    main{
+        max-width: 1300px;
+        margin: 1rem auto;
+    }
+section{
+    display: flex; 
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    .food-card{
+        width: var(--cardWidth);
+    }
+    }
+}

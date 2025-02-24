@@ -35,7 +35,8 @@ nav {
                 font-family: var(--fontTitle);
                 font-weight: 700;
             }
-            a:hover{
+            a:hover,
+            a:active{
                 color: var(--hoverColor);
                 font-size: 1.1rem;
             }
