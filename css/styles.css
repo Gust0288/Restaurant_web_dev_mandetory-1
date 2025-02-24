@@ -12,7 +12,7 @@ header{
         margin: 0;
         padding: 0.75rem 1.5rem;
         font-family: var(--fontTitle);
-        color: #ffffff;
+        color: var(--colorWhite);
         font-weight: 700;
     }
 }
@@ -30,7 +30,7 @@ nav {
             list-style-type: none;
             
             a{
-                color: #ffffff;
+                color: var(--colorWhite);
                 text-decoration: none;
                 font-family: var(--fontTitle);
                 font-weight: 700;
@@ -42,7 +42,7 @@ nav {
             }
         }
         li:nth-child(1), li:nth-child(2){
-            border-bottom: solid #ffffff 1px;
+            border-bottom: solid var(--colorWhite) 1px;
         }
     }
 }
@@ -69,7 +69,7 @@ footer{
     width: 100%;
     text-align: center;
     background-color: var(--colorbgNav);
-    color: #ffffff;
+    color: var(--colorWhite);
     padding: 0.5rem 0;
     font-size: 0.8rem;
 }

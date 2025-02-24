@@ -45,7 +45,7 @@ main{
         padding: 0.2rem 0.5rem;
         li{
             list-style-type: none;
-            color: rgb(110, 51, 51);
+            color: var(--colorbgSecond);
             font-family: var(--fontTitle);
             font-weight: 700;
             font-size: 0.9rem;
